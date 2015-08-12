@@ -34,6 +34,7 @@ If you want to view the find organized version, please head to [this post](http:
 * [miguelmota/javascript-idiosyncrasies](https://github.com/miguelmota/javascript-idiosyncrasies): A bunch of Javascript idiosyncrasies, kinda. 
 * [A Baseline for Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/): by @rmurphey on APR 12TH, 2012
 * [A Baseline for Front-End [JS] Developers: 2015](http://rmurphey.com/blog/2015/03/23/a-baseline-for-front-end-developers-2015/):  by @rmurphey on MAR 23RD, 2015
+* [Making NetFlix.com Faster](http://techblog.netflix.com/2015/08/making-netflixcom-faster.html): Performance isn't an option if you're aiming for an amazing user experience. A compelling post on how Netflix improved on how fast Netflix.com renders by @kristoferbaxter.
 
 
 # Required Viewing
