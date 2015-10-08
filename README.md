@@ -102,12 +102,14 @@ about HTML5 Game Development.
 * [Frontend Guidelines](https://github.com/bendc/frontend-guidelines): Some HTML, CSS and JS best practices.
 * [free-for-dev](https://github.com/ripienaar/free-for-dev): A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev.
 * [timjacobi/angular2-education](https://github.com/timjacobi/angular2-education): A curated list of helpful material to get started with education on Angular 2
+* [CSS Tool Collection](https://medium.com/@vilcins/css-tools-that-i-use-67cb8bfa2e2d): CSS tools are important for front-end developers because they help them by simplifying the jobs they have to do, simplify development related tasks and allow to write clean css codes. 
 
 # Spec
 
 * [ES5 Spec](http://es5.github.io/) An annotated, hyperlinked version of the ES5 spec.
 * [ECMA-262 6th Edition / June 2015](http://www.ecma-international.org/ecma-262/6.0/): This is the HTML rendering of ECMA-262 6th Edition, The ECMAScript 2015 Language Specification.
 * [ES6 draft](https://people.mozilla.org/~jorendorff/es6-draft.html)
+* [ECMAScript 2016 Language Specificiation](http://tc39.github.io/ecma262/)
 
 # Conf
 
@@ -166,6 +168,7 @@ We need to keep learning. One of the most rewarding ways to do that is by attend
 * [Browserify](http://browserify.org/) Bundle modules for the browser
 * [How to use NPM as a Build Tool](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/)
 * [Webpack](http://webpack.github.io/): The module bundler
+* [jspm.io](http://jspm.io/): Frictionless browser package management
 
 ## Lint / Quality checkers
 
