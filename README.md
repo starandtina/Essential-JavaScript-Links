@@ -141,7 +141,7 @@ We need to keep learning. One of the most rewarding ways to do that is by attend
 * [Exploring ES6: Upgrade to the next version of JavaScript](https://leanpub.com/exploring-es6/read) by Axel Rauschmayer@rauschma
 * [Node.js in Action](http://www.manning.com/cantelon/)
 * [The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal](http://www.amazon.com/gp/product/0670899763?ie=UTF8&camp=213733&creative=393177&creativeASIN=0670899763&linkCode=shr&tag=ericleads-20&linkId=NDUXYQOCMPC47SQI)
-* Secrets of the JavaScript Ninja(http://www.amazon.com/Secrets-JavaScript-Ninja-John-Resig/dp/193398869X/ref=sr_1_1?s=books&ie=UTF8&qid=1422710614&sr=1-1&keywords=Secrets+of+the+JavaScript+Ninja&pebp=1422710616815&peasin=193398869X) Takes you on a journey towards mastering modern JavaScript development in three phases: design, construction, and maintenance
+* [Secrets of the JavaScript Ninja](http://www.amazon.com/Secrets-JavaScript-Ninja-John-Resig/dp/193398869X/ref=sr_1_1?s=books&ie=UTF8&qid=1422710614&sr=1-1&keywords=Secrets+of+the+JavaScript+Ninja&pebp=1422710616815&peasin=193398869X) Takes you on a journey towards mastering modern JavaScript development in three phases: design, construction, and maintenance
 
 
 # Dev tools & collaboration
