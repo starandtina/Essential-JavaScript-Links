@@ -4,7 +4,7 @@ Originally forked from [Essential JavaScript Links](https://gist.github.com/eric
 
 This is a very exclusive collection of only must-have JavaScript links. I'm only listing my favorite links. Nothing else makes the cut. Feel free to suggest links if you think they're good enough to make this list. The really curious should feel free to browse the comments to find other links. I can't guarantee the quality of links in the comments.
 
-If you want to view the find organized version, please head to [this post](http://starandtina.github.io/frontend/javascript/2015/01/28/essential-javascript-links/).
+If you want to view the well organized version, please head to [this post](http://starandtina.github.io/frontend/javascript/2015/01/28/essential-javascript-links/).
 
 ----
 
@@ -48,6 +48,7 @@ If you want to view the find organized version, please head to [this post](http:
 # Dailies and Weeklies
 
 * [JavaScript Weekly](http://javascriptweekly.com/): A free, once–weekly e-mail round-up of JavaScript news and articles.
+* [Fresh Brewed Frontend](https://freshbrewed.co/frontend/): A weekly reading digest for frontend developers. One email. Handpicked articles. Every Tuesday. No spam.
 * [HTML5 Weekly](http://html5weekly.com): A once–weekly HTML5 and Web Platform technology roundup.
 CSS 3, Canvas, WebSockets, WebGL, Native Client, and more.
 * [CSS Weekly](http://css-weekly.com/): A weekly e-mail roundup of css articles, tutorials, experiments and tools curated by [Zoran Jambor](http://twitter.com/ZoranJambor).
@@ -88,6 +89,7 @@ how to guides, tips and tricks, resources, events and more.
 * [Ember Weekly](http://emberweekly.com/): The latest Ember.js news, tips & code delivered directly to your inbox.
 * [HTML5 Game Development Newsletter](http://gamedevjsweekly.com/): Weekly newsletter
 about HTML5 Game Development.
+* [Offline First Reader](http://offlinefirst.org/): We live in a disconnected & battery powered world, but our technology and best practices are a leftover from the always connected & steadily powered past.
 
 # Awesomeness
 
