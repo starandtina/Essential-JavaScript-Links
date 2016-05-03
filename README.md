@@ -106,6 +106,7 @@ about HTML5 Game Development.
 * [free-for-dev](https://github.com/ripienaar/free-for-dev): A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev.
 * [timjacobi/angular2-education](https://github.com/timjacobi/angular2-education): A curated list of helpful material to get started with education on Angular 2
 * [CSS Tool Collection](https://medium.com/@vilcins/css-tools-that-i-use-67cb8bfa2e2d): CSS tools are important for front-end developers because they help them by simplifying the jobs they have to do, simplify development related tasks and allow to write clean css codes. 
+* [Curated tutorial and resource links I've collected on React, Redux, ES6, and more](https://github.com/markerikson/react-redux-links)
 
 # Spec
 
