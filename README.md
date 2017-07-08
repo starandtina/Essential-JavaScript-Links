@@ -45,7 +45,7 @@ If you want to view the well organized version, please head to [this post](http:
 * :star2: [Function as Child Components](https://medium.com/merrickchristensen/function-as-child-components-5f3920a9ace9#.3n1is9sod)
 * :star2: [Mixins Are Dead. Long Live Composition](https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750#.bhg0iefbm)
 * :star2: [Smart and Dumb Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.l0xis2l65)
-
+* :star2: [dexteryy/spellbook-of-modern-webdev](https://github.com/dexteryy/spellbook-of-modern-webdev): A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development
 
 
 # Required Viewing
@@ -119,6 +119,7 @@ how to guides, tips and tricks, resources, events and more.
 * [HTML5 Game Development Newsletter](http://gamedevjsweekly.com/): Weekly newsletter
 about HTML5 Game Development.
 * [Offline First Reader](http://offlinefirst.org/): We live in a disconnected & battery powered world, but our technology and best practices are a leftover from the always connected & steadily powered past.
+
 
 # Awesomeness
 
