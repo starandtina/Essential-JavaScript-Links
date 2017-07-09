@@ -1,0 +1,478 @@
+<!doctype html>
+<html>
+<body>
+  <meta charset="UTF-8">
+  <style>
+/*! https://github.com/MozMorris/tomorrow-pygments/blob/master/css/tomorrow.css */.highlight .gh,.highlight .gp,.highlight .gs,.highlight .gu{font-weight:700}.highlight .hll{background-color:#d6d6d6}.highlight{background:#fff;color:#4d4d4c}.highlight .c{color:#8e908c}.highlight .err{color:#c82829}.highlight .k{color:#8959a8}.highlight .l{color:#f5871f}.highlight .n{color:#4d4d4c}.highlight .o{color:#3e999f}.highlight .p{color:#4d4d4c}.highlight .c1,.highlight .cm,.highlight .cp,.highlight .cs{color:#8e908c}.highlight .gd{color:#c82829}.highlight .ge{font-style:italic}.highlight .gh{color:#4d4d4c}.highlight .gi{color:#718c00}.highlight .gp{color:#8e908c}.highlight .gu{color:#3e999f}.highlight .kc,.highlight .kd{color:#8959a8}.highlight .kn{color:#3e999f}.highlight .kp,.highlight .kr{color:#8959a8}.highlight .kt{color:#eab700}.highlight .ld{color:#718c00}.highlight .m{color:#f5871f}.highlight .s{color:#718c00}.highlight .na{color:#4271ae}.highlight .nb{color:#4d4d4c}.highlight .nc{color:#eab700}.highlight .no{color:#c82829}.highlight .nd{color:#3e999f}.highlight .ni{color:#4d4d4c}.highlight .ne{color:#c82829}.highlight .nf{color:#4271ae}.highlight .nl{color:#4d4d4c}.highlight .nn{color:#eab700}.highlight .nx{color:#4271ae}.highlight .py{color:#4d4d4c}.highlight .nt{color:#3e999f}.highlight .nv{color:#c82829}.highlight .ow{color:#3e999f}.highlight .w{color:#4d4d4c}.highlight .mf,.highlight .mh,.highlight .mi,.highlight .mo{color:#f5871f}.highlight .sb{color:#718c00}.highlight .sc{color:#4d4d4c}.highlight .sd{color:#8e908c}.highlight .s2{color:#718c00}.highlight .se{color:#f5871f}.highlight .sh{color:#718c00}.highlight .si{color:#f5871f}.highlight .s1,.highlight .sr,.highlight .ss,.highlight .sx{color:#718c00}.highlight .bp{color:#4d4d4c}.highlight .vc,.highlight .vg,.highlight .vi{color:#c82829}.highlight .il{color:#f5871f}.highlight .o+.err{color:#4271ae}
+
+  /* site and markdown styles */
+  html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}
+  html{-webkit-font-smoothing:antialiased}
+  body{font-size:16px; margin:5vw 5vw 0;color:#111;font-family:-apple-system,BlinkMacSystemFont,sans-serif}
+  h1,h2,h3,h4,h5,h6{font-size:1em}
+  h2{margin-top:12vw}
+  p{font-family:Athelas,Georgia,serif}
+  pre code{display:table}
+  code, pre{font-family: monospace, monospace;font-size: 1em}
+  code, .highlight pre{font-size: .9em}
+  #contents + ul{text-decoration:none;padding-left:20px}
+  .black-link, #contents + ul li a{color:#000;text-decoration:none}
+  .black-link, #contents + ul li a:hover{text-decoration:underline}
+  .highlight{margin:1rem 0}
+  </style>
+  <h1 style="margin-bottom: 12vw; font-size: 1em; font-weight: normal">
+    Essential JavaScript Links
+    <span style="color: #aaa">
+      [<a href="https://github.com/starandtina/Essential-JavaScript-Links" class="black-link">GitHub</a>]
+    </span>
+  </h1>
+
+  <div style="max-width: 800px">
+    <h1 id="essential-javascript-links">Essential JavaScript Links</h1>
+<p>Originally forked from <a href="https://gist.github.com/ericelliott/d576f72441fc1b27dace">Essential JavaScript Links</a> but modified according to personal favor.</p>
+<p>This is a very exclusive collection of only must-have JavaScript links. I’m only listing my favorite links. Nothing else makes the cut. Feel free to suggest links if you think they’re good enough to make this list. The really curious should feel free to browse the comments to find other links. I can’t guarantee the quality of links in the comments.</p>
+<p>If you want to view the well organized version, please head to <a href="http://starandtina.github.io/frontend/javascript/2015/01/28/essential-javascript-links/">this post</a>.</p>
+<hr>
+<h1 id="required-reading">Required Reading</h1>
+<ul>
+<li><a href="https://medium.com/javascript-scene/learn-javascript-b631a4af11f2">Learn JavaScript Essentials (for all skill levels)</a> - One clear path to JavaScript mastery</li>
+<li><a href="https://medium.com/javascript-scene/javascript-training-sucks-284b53666245">JavaScript Training Sucks</a> 99 out of 100 JS developers lack the skills they need to fill hundreds of thousands of jobs. We can change that.</li>
+<li><a href="https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3">The Two Pillars of JavaScript Part 1: Prototypal OO</a></li>
+<li><a href="https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4">The Two Pillars of JavaScript Part 2: Functional Programming</a></li>
+<li><a href="http://davidwalsh.name/javascript-objects">JavaScript Objects</a>: An excellent explanation of inheritance in JavaScript by Kyle Simpson.</li>
+<li><a href="http://isomorphic.net/">Isomorphic JavaScript</a></li>
+<li><a href="https://medium.com/@addyosmani/javascript-application-architecture-on-the-road-to-2015-d8125811101b">JavaScript Application Architecture on the Road to 2015</a> - Addy Osmani</li>
+<li><a href="http://jlongster.com/Modularity">Modularity</a> A pragmatic take on the tiny modules vs batteries included approach</li>
+<li><a href="https://github.com/nzakas/computer-science-in-javascript">Computer Science in JavaScript</a> by Nicholas C. Zakas <strong>#article</strong></li>
+<li><a href="https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd">The Dao of Immutability</a> The Way of the Functional Programmer <strong>#article</strong></li>
+<li><a href="http://futurice.com/blog/reactive-mvc-and-the-virtual-dom">Reactive MVC and the Virtual DOM</a>: Great read, even if you’re not a React user.</li>
+<li><a href="https://gist.github.com/staltz/868e7e9bc2a7b8c1f754">Introduction to Reactive Programming</a></li>
+<li><a href="https://github.com/kriskowal/gtor">The General Theory of Reactivity</a>: What is all this talk about reactive? Functional? Promises? This is the beginning of a reactive programming bible.</li>
+<li><a href="http://www.cse.chalmers.se/~rjmh/Papers/whyfp.pdf">Why Functional Programming Matters</a> by John Hughes, 1984 <strong>#paper</strong> <strong>#pdf</strong></li>
+<li><a href="http://www.2ality.com/2014/10/typed-javascript.html">Typed JavaScript</a> Excellent post about the state of typed JavaScript by Axel Rauschmayer  <strong>#article</strong></li>
+<li><a href="http://blog.getify.com/promises-part-1/">ES6 Promises</a>: This is a multi-part blog post series on the whys and hows and problems of Promises by Kyle Simpson.</li>
+<li><a href="http://davidwalsh.name/es6-generators">ES6 Generators</a>: A series of blog posts by Kyle Simpson.</li>
+<li><a href="http://www.2ality.com/2014/10/typed-javascript.html">Typed JavaScript</a>: Excellent post about the state of typed JavaScript by Axel Rauschmayer</li>
+<li><a href="http://jlongster.com/Taming-the-Asynchronous-Beast-with-CSP-in-JavaScript">Taming the Asynchronous Beast with CSP in JavaScript</a> - James Long</li>
+<li><a href="http://www.2ality.com/2014/09/es6-modules-final.html">ES6 Modules: The Final Syntax</a> by @rauschma #AMDisDead</li>
+<li><a href="https://github.com/huei90/javascript-sdk-design">javascript-sdk-design</a> A guide for people building JavaScript client SDKs <strong>#article</strong></li>
+<li><a href="http://www.paulirish.com/2015/advanced-performance-audits-with-devtools/">Advanced Performance Audits with DevTools</a> In-depth perf case studies with Paul Irish <strong>#article</strong></li>
+<li><a href="https://blog.twitter.com/2010/tech-behind-new-twittercom">The Tech Behind the New Twitter.com</a>: The Twitter.com redesign on 2010, publicly switched to client-side templating, turning the server into something more like a simple API</li>
+<li><a href="https://medium.com/@ericflo/facebook-just-taught-us-all-how-to-build-websites-51f1e7e996f2">Facebook just taught us all how to build websites</a></li>
+<li><a href="http://bonsaiden.github.io/JavaScript-Garden/">JavaScript-Garden</a>: JavaScript Garden is a growing collection of documentation about the most quirky parts of the JavaScript programming language. </li>
+<li><a href="http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/">MindBEMding – getting your head ’round BEM syntax</a>: BEM – meaning block, element, modifier – is a front-end naming methodology thought up by the guys at Yandex. It is a smart way of naming your CSS classes to give them more transparency and meaning to other developers. They are far more strict and informative, which makes the BEM naming convention ideal for teams of developers on larger projects that might last a while.</li>
+<li><a href="http://addyosmani.com/blog/chrome-devtools-state-of-the-union-2015/">Chrome DevTools: State Of The Union 2015</a>: <a href="http://twitter.com/addyosmani">@addyosmani</a> walks through the latest updates on your favourite debugging companion; exploring new features like paint profiling, animation inspection and updates to the JavaScript editing workflow with V8.</li>
+<li><a href="https://medium.com/javascript-scene/learn-javascript-b631a4af11f2">JavaScript Scene</a>: Learn JavaScript Essentials(for all skill levels) by Eric Elliott (author of <a href="http://chimera.labs.oreilly.com/books/1234000000262/index.html">Programming JavaScript Applications</a>)</li>
+<li><a href="https://github.com/miguelmota/javascript-idiosyncrasies">miguelmota/javascript-idiosyncrasies</a>: A bunch of Javascript idiosyncrasies, kinda. </li>
+<li><a href="http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/">A Baseline for Front-End Developers</a>: by @rmurphey on APR 12TH, 2012</li>
+<li><a href="http://rmurphey.com/blog/2015/03/23/a-baseline-for-front-end-developers-2015/">A Baseline for Front-End [JS] Developers: 2015</a>:  by @rmurphey on MAR 23RD, 2015</li>
+<li><a href="http://techblog.netflix.com/2015/08/making-netflixcom-faster.html">Making NetFlix.com Faster</a>: Performance isn’t an option if you’re aiming for an amazing user experience. A compelling post on how Netflix improved on how fast Netflix.com renders by @kristoferbaxter.</li>
+<li>:star2: <a href="https://medium.com/merrickchristensen/function-as-child-components-5f3920a9ace9#.3n1is9sod">Function as Child Components</a></li>
+<li>:star2: <a href="https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750#.bhg0iefbm">Mixins Are Dead. Long Live Composition</a></li>
+<li>:star2: <a href="https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.l0xis2l65">Smart and Dumb Components</a></li>
+<li>:star2: <a href="https://github.com/dexteryy/spellbook-of-modern-webdev">dexteryy/spellbook-of-modern-webdev</a>: A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development</li>
+<li>:star2: <a href="https://github.com/wearehive/project-guidelines">wearehive/project-guidelines</a>: A set of best practices for JavaScript projects</li>
+</ul>
+<h1 id="required-viewing">Required Viewing</h1>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=gawmdhCNy-A">Asynchronous Programming at Netflix</a> - <a href="https://twitter.com/jhusain">Jafar Husain</a></li>
+<li><a href="https://www.youtube.com/watch?v=SiFwRtCnxv4">David Nolen: Immutability: Putting The Dream Machine To Work</a> - <a href="https://twitter.com/swannodette">David Nolen</a></li>
+<li><a href="https://www.youtube.com/watch?v=R8W_6xWphtw">Delivering the Goods</a>: Paul Irish on one of the most important but overlooked topics in the development world today - page load times.</li>
+<li><a href="https://github.com/bolshchikov/js-must-watch">bolshchikov/js-must-watch</a>: Must-watch videos about javascript.</li>
+<li><a href="https://vimeo.com/69255635">Classical Inheritance is Obsolete: How to Think in Prototypal OO</a> by <a href="https://twitter.com/_ericelliott">Eric Elliott</a> <strong>#talk</strong></li>
+<li><a href="https://www.youtube.com/watch?v=wfMtDGfHWpA">Composition Over Inheritance</a> by Mattias Petter Johansson <strong>#video</strong></li>
+<li><a href="https://www.youtube.com/watch?v=MqHDDtVYJRI">Everything You Never Wanted to Know About JavaScript Numbers</a> by Bartek Szopka <strong>#talk</strong></li>
+<li><a href="https://www.youtube.com/watch?v=dwP1TNXE6fc">What is Reactive Programming?</a> <a href="https://twitter.com/jhusain">Jafar Husain</a> explains reactive programming <strong>#talk</strong></li>
+<li><a href="https://www.youtube.com/watch?v=XxVg_s8xAms">Introduction to React</a> by Jordan Walke <strong>#talk</strong></li>
+<li><a href="https://egghead.io/series/introduction-to-reactive-programming">Introduction to Reactive Programming</a> by André Staltz <strong>#video</strong> <strong>#course</strong></li>
+<li><a href="https://www.youtube.com/watch?v=SiFwRtCnxv4">Immutability: Putting The Dream Machine To Work</a> by <a href="https://twitter.com/swannodette">David Nolen</a> <strong>#talk</strong></li>
+<li><a href="http://begriffs.com/posts/2015-07-22-essence-of-frp.html">The Essence of FRP</a> by Conal Elliott <strong>#talk</strong></li>
+<li><a href="https://www.youtube.com/watch?v=HYl7ReNB5TA">JavaScript API Design Principles</a> by Ariya Hidayat <strong>#talk</strong></li>
+<li><a href="https://www.youtube.com/watch?v=R8W_6xWphtw">Delivering the Goods</a> Paul Irish on one of the most important but overlooked topics in the development world today - page load times. <strong>#talk</strong></li>
+<li><a href="https://www.youtube.com/watch?v=d5_6yHixpsQ">Supercharging Page Load</a> by Jake Archibald <strong>#video</strong></li>
+<li><a href="https://www.youtube.com/watch?v=RWmzxyMf2cE">Slay’n the Waste Monster</a> by Colt McAnlis <strong>#talk</strong></li>
+<li><a href="https://www.youtube.com/watch?v=rI8tNMsozo0">Simplicity Matters</a> A later version of the influential talk, “Simple Made Easy” by <a href="https://twitter.com/richhickey">Rich Hickey</a> <strong>#talk</strong></li>
+<li><a href="https://www.youtube.com/watch?v=GNO_CYUjMK8">Making WebGL Dance</a> by Steven Wittens <strong>#talk</strong></li>
+<li><a href="https://www.youtube.com/watch?v=4NkjLWAkYZ8">The Pixel Factory</a> by Steven Wittens <strong>#talk</strong></li>
+<li><a href="https://egghead.io/series/getting-started-with-redux">Getting Started with Redux</a> by Dan Abramov. Describes a functional approach to application state that all developers should be aware of. <strong>#course</strong> <strong>#video</strong></li>
+<li><a href="https://egghead.io/series/cycle-js-fundamentals">Cycle.js Fundamentals</a> by André Staltz. <strong>#course</strong> <strong>#video</strong></li>
+</ul>
+<h1 id="dailies-and-weeklies">Dailies and Weeklies</h1>
+<ul>
+<li><a href="http://javascriptweekly.com/">JavaScript Weekly</a>: A free, once–weekly e-mail round-up of JavaScript news and articles.</li>
+<li>ES.next News](<a href="http://esnextnews.com/">http://esnextnews.com/</a>): ES.next News: 5 ECMAScript.next links every week, in your inbox. </li>
+<li><a href="https://freshbrewed.co/frontend/">Fresh Brewed Frontend</a>: A weekly reading digest for frontend developers. One email. Handpicked articles. Every Tuesday. No spam.</li>
+<li><a href="http://html5weekly.com">HTML5 Weekly</a>: A once–weekly HTML5 and Web Platform technology roundup.
+CSS 3, Canvas, WebSockets, WebGL, Native Client, and more.</li>
+<li><a href="http://css-weekly.com/">CSS Weekly</a>: A weekly e-mail roundup of css articles, tutorials, experiments and tools curated by <a href="http://twitter.com/ZoranJambor">Zoran Jambor</a>.</li>
+<li><a href="http://mobilewebweekly.co/">Mobile Web Weekly</a>: A weekly round-up of the releases, articles, and links that affect Web developers working on the mobile-facing Web.</li>
+<li><a href="http://responsivedesignweekly.com/">Responsive Design Weekly</a>: A free, once–weekly round-up of responsive design articles, tools, tips, tutorials and inspirational links.</li>
+<li><a href="http://web-design-weekly.com/">Web Design Weekly</a>: A once a week email with no spam, no rambling. Just pure awesome links to the best news and articles to hit the interweb during the week.</li>
+<li><a href="http://nodeweekly.com/">Node Weekly</a>: A free, once–weekly e-mail round-up of Node.js news and articles.</li>
+<li><a href="http://webtoolsweekly.com/">Web Tools Weekly</a>: </li>
+<li><a href="http://www.echojs.com/">EchoJS</a></li>
+<li><a href="http://dailyjs.com/">DailyJS</a>: A JavaScript Blog.</li>
+<li><a href="http://devchat.tv/js-jabber/">JavaScript Jabber</a></li>
+<li><a href="http://adripofjavascript.com/">A Drip of JavaScript</a>: One quick JavaScript tip, delivered to your inbox every other week.</li>
+<li><a href="http://modernweb.com/modern-web-observer/">Modern Web Observer</a></li>
+<li><a href="https://wdrl.info/">Web Development Reading List</a>: A handcrafted, carefully selected list of web development related resources. Published usually every week.</li>
+<li><a href="http://www.devopsweekly.com/">DevOps Weekly newsletter</a></li>
+<li><a href="https://blog.serverdensity.com/devops-newsletter/">DevOps newsletter by ServerDensity</a></li>
+<li><a href="https://sysadmincasts.com/">SysAdmin Casts newsletter</a></li>
+<li><a href="https://serversforhackers.com/">Servers for hackers newsletter</a></li>
+<li><a href="https://www.docker.com/newsletter-subscription">Docker Weekly newsletter</a></li>
+<li><a href="https://kubeweekly.com/">Kubernetes Weekly newsletter</a></li>
+<li><a href="http://webopsweekly.com/">Web Operations Weekly</a>: A weekly newsletter on Web operations, infrastructure, performance, and tooling, from the browser down to the metal.</li>
+<li><a href="http://clouddevweekly.co/">Cloud Development Weekly</a>: News, links and resources for developers working with cloud services, cloud APIs, and cloud-based tools</li>
+<li><a href="http://www.thisweekindomains.com/">This Week on Domains</a> : A free weekly newsletter featuring the best and hand curated links related to domains, development, monetization, how to guides, tips and tricks, resources, events and more.</li>
+<li><a href="http://www.nosqlweekly.com/">NoSQL Weekly</a>: A free weekly newsletter featuring curated news, articles, new releases, jobs etc related to NoSQL.</li>
+<li><a href="http://www.founderweekly.com/">Founder Weekly</a>: A free weekly newsletter for entrepreneurs featuring best curated content, must read articles, 
+how to guides, tips and tricks, resources, events and more.</li>
+<li><a href="http://www.pythonweekly.com/">Python Weekly</a>: A free weekly newsletter featuring curated news, articles, new releases, jobs etc related to Python.</li>
+<li><a href="http://rubyweekly.com/">Ruby Weekly</a>: A free, once–weekly e-mail round-up of Ruby news and articles.</li>
+<li><a href="http://golangweekly.com/">Go Newsletter</a>: A weekly newsletter about the Go programming language.</li>
+<li><a href="http://dbweekly.com/">DB Weekly</a>: A weekly round-up of database technology news and articles covering new developments, SQL, NoSQL, document databases, graph databases, and more.</li>
+<li><a href="http://mysqlnewsletter.com/">MySQL Newsletter</a>: Unofficial Weekly News Digest of all things MySQL</li>
+<li><a href="http://postgresweekly.com/">Postgres Weekly</a>: A free, once–weekly e-mail round-up of PostgreSQL news and articles</li>
+<li><a href="http://www.datascienceweekly.org/">Data Science Weekly Newsletter</a>: A free weekly newsletter featuring curated news, articles and jobs related to Data Science.</li>
+<li><a href="http://www.bigdataweekly.com/">Big Data Weekly</a>: A free, hand-curated weekly round-up of Big Data news and links.</li>
+<li><a href="https://github.com/explore">Github Explore</a>: Browse interesting projects, solving all types of interesting problems.</li>
+<li><a href="http://hiten.com/">SaaS Weekly</a>: A weekly email of useful links for people interested in SaaS businesses.</li>
+<li><a href="http://www.ng-newsletter.com/">ng-newsletter</a>: The free, weekly newsletter of the best AngularJS content on the web. Hand-picked content by the experts in Angular - delivered directly to your inbox.</li>
+<li><a href="http://emberweekly.com/">Ember Weekly</a>: The latest Ember.js news, tips &amp; code delivered directly to your inbox.</li>
+<li><a href="http://gamedevjsweekly.com/">HTML5 Game Development Newsletter</a>: Weekly newsletter
+about HTML5 Game Development.</li>
+<li><a href="http://offlinefirst.org/">Offline First Reader</a>: We live in a disconnected &amp; battery powered world, but our technology and best practices are a leftover from the always connected &amp; steadily powered past.</li>
+</ul>
+<h1 id="awesomeness">Awesomeness</h1>
+<ul>
+<li><a href="https://github.com/bayandin/awesome-awesomeness">A curated list of awesome awesomeness</a>: A curated list of amazingly awesome awesomeness. Also available on: <a href="https://awesome-awesomeness.zeef.com/alexander.bayandin">Awesome-Awesomeness.ZEEF.com</a></li>
+<li><a href="https://github.com/sindresorhus/awesome">A curated list of awesome lists</a>: A curated list of awesome lists by @sindresorhus.</li>
+<li><a href="https://github.com/moklick/frontend-stuff">moklick/frontend-stuff</a>: A continuously expanded list of framework/libraries and tools I used/want to use when building things on the web. Mostly Javascript stuff.</li>
+<li><a href="https://github.com/impressivewebs/frontend-feeds">Front-end Feeds</a>: An up to date list of RSS feeds for front-end developers.</li>
+<li><a href="http://www.rfcreader.com/">RFC Reader</a>: An online reader(viewer) for IETF RFCs.</li>
+<li><a href="http://httpwg.github.io/">HTTP Specifications</a>: You could find anything you want for Hypertext Transfer Protocol - the core protocol of the World Wide Web.</li>
+<li><a href="https://github.com/addyosmani/es6-tools">ECMAScript 6 Tools</a>: An aggregation of tooling for using ES6 today.</li>
+<li><a href="https://github.com/davidsonfellipe/awesome-wpo">Web Performance Optimization</a>: A curated list of Web Performance Optimization.</li>
+<li><a href="https://github.com/bendc/frontend-guidelines">Frontend Guidelines</a>: Some HTML, CSS and JS best practices.</li>
+<li><a href="https://github.com/ripienaar/free-for-dev">free-for-dev</a>: A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev.</li>
+<li><a href="https://github.com/timjacobi/angular2-education">timjacobi/angular2-education</a>: A curated list of helpful material to get started with education on Angular 2</li>
+<li><a href="https://medium.com/@vilcins/css-tools-that-i-use-67cb8bfa2e2d">CSS Tool Collection</a>: CSS tools are important for front-end developers because they help them by simplifying the jobs they have to do, simplify development related tasks and allow to write clean css codes. </li>
+<li><a href="https://github.com/markerikson/react-redux-links">Curated tutorial and resource links I’ve collected on React, Redux, ES6, and more</a></li>
+</ul>
+<h1 id="spec">Spec</h1>
+<ul>
+<li><a href="http://tc39.github.io/ecma262/">ECMAScript 2016 Language Specificiation</a></li>
+<li><a href="http://es5.github.io/">ES5 Spec</a> An annotated, hyperlinked version of the ES5 spec</li>
+<li><a href="http://www.ecma-international.org/ecma-262/6.0/">ES6 Spec</a> ECMAScript® 2015 Language Specification</li>
+<li><a href="http://www.ecma-international.org/ecma-262/7.0/">ES2016 (ES7) Spec</a></li>
+</ul>
+<h1 id="conf">Conf</h1>
+<p>We need to keep learning. One of the most rewarding ways to do that is by attending conferences.</p>
+<ul>
+<li><a href="http://jsconf.com/">JSConf</a>: Conferences for the JavaScript community.</li>
+<li><a href="http://fluentconf.com/">Fluent Conf</a>: The O’Reilly Fluent Conference was first launched in 2012 as a new event for developers working with JavaScript, HTML5, and other web technologies. Fluent covers the full scope of the Web Platform and its associated technologies, including WebGL, CSS3, mobile APIs, Node.js, AngularJS, ECMAScript 6, and more.</li>
+<li><a href="http://velocityconf.com/">Velocity</a>: Web operations, performance, DevOps, optimization, and more. Join the engineers, developers, and technology leaders who are defining the IT-driven business at the Velocity conference.</li>
+<li><a href="http://forwardjs.com/">Forward JS</a>: WEB TECHNOLOGY SUMMIT</li>
+<li><a href="http://www.munichjs.org/">MUNICH JS</a>: MunichJS is a user group in Munich for developers (amateurs, journeymen and gurus) that meets monthly to discuss topics on JavaScript and ECMAScript. Meetings take place in each month on different locations. The group was established in October 2010 at the BarCamp in Munich. Orgnaized by Dr. Axel Rauschmayer@rauschma</li>
+<li><a href="http://www.oscon.com/">OSCON</a>: Open source software, architecture, frameworks, and tools for today’s engineers</li>
+<li><a href="https://jsremoteconf.com/">JS REMOTE CONFS</a>: JS Remote Conf is a great way to learn from the brightest minds in JavaScript while minimizing these issues. The main benefits of JS Remote Conf are: No travel, Low Cost, After Work, Watch Anywhere, Users’ Group Friendly</li>
+<li><a href="http://conf.reactjs.com/">React.js Conf</a>: All cutting-edge techs related with React.</li>
+</ul>
+<h1 id="books">Books</h1>
+<ul>
+<li><a href="http://www.amazon.com/Professional-JavaScript-Developers-Nicholas-Zakas/dp/1118026691/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1422710696&amp;sr=1-1&amp;keywords=Professional+JavaScript+for+Web+Developer&amp;pebp=1422710700389&amp;peasin=1118026691">Professional JavaScript for Web Developer</a> by Nicholas C. Zakas:  In this book JavaScript is covered from its beginning in the earliest Netscape browsers to the present-day versions that can support the DOM and Ajax. You will learn how to extend the language to suit specific needs and how to create client-server communications without intermediaries such as Java or hidden frames. You will also learn how to apply JavaScript solutions to business problems faced by web developers everywhere. This book provides a developer-level introduction along with more advanced and useful features of JavaScript.</li>
+<li><a href="http://www.amazon.com/gp/product/B00QL616QE?ie=UTF8&amp;camp=213733&amp;creative=393177&amp;creativeASIN=B00QL616QE&amp;linkCode=shr&amp;tag=ericleads-20&amp;linkId=6AOODC27L6URY3K2">JavaScript for Kids</a></li>
+<li><a href="http://speakingjs.com/es5/index.html">Speaking JavaScript</a> by Dr. Axel Rauschmayer: An in-depth guide for JavaScript programmer</li>
+<li><a href="http://read.humanjavascript.com/">Human JavaScript</a> by @HenrikJoreteg: This book will help you build native HTML5 apps</li>
+<li><a href="http://eloquentjavascript.net/">Eloquent JavaScript</a></li>
+<li><a href="http://www.amazon.com/gp/product/0596517742?ie=UTF8&amp;camp=213733&amp;creative=393185&amp;creativeASIN=0596517742&amp;linkCode=shr&amp;tag=ericleads-20&amp;linkId=IJKESYSOTWGC27DR">JavaScript: The Good Parts</a></li>
+<li><a href="http://www.amazon.com/gp/product/0321812182?ie=UTF8&amp;camp=213733&amp;creative=393185&amp;creativeASIN=0321812182&amp;linkCode=shr&amp;tag=ericleads-20&amp;linkId=JIC63I267I6UDQQZ">Effective JavaScript</a> by David Herman: 68 Specific Ways to Harness the Power of JavaScript</li>
+<li><a href="http://www.amazon.com/Expert-JavaScript-Experts-Voice-Development/dp/1430260971/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1422710124&amp;sr=1-1&amp;keywords=Expert+JavaScript">Expert JavaScript</a> by Mark E. Daggett: Take a deep dive into JavaScript and build better applications</li>
+<li><a href="http://pjabook.com">Programming JavaScript Applications</a></li>
+<li><a href="http://www.amazon.com/gp/product/0596805527?ie=UTF8&amp;camp=213733&amp;creative=393185&amp;creativeASIN=0596805527&amp;linkCode=shr&amp;tag=ericleads-20&amp;linkId=AENIF5KLRQI3N335">JavaScript: The Definitive Guide</a></li>
+<li><a href="https://github.com/getify/You-Dont-Know-JS">You Don’t Know JS</a></li>
+<li><a href="https://leanpub.com/understandinges6/read/">Understanding ECMAScript 6</a> by Nicholas C. Zakas</li>
+<li><a href="https://leanpub.com/exploring-es6/read">Exploring ES6: Upgrade to the next version of JavaScript</a> by Axel Rauschmayer@rauschma</li>
+<li><a href="http://www.manning.com/cantelon/">Node.js in Action</a></li>
+<li><a href="http://www.amazon.com/gp/product/0670899763?ie=UTF8&amp;camp=213733&amp;creative=393177&amp;creativeASIN=0670899763&amp;linkCode=shr&amp;tag=ericleads-20&amp;linkId=NDUXYQOCMPC47SQI">The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal</a></li>
+<li><a href="http://www.amazon.com/Secrets-JavaScript-Ninja-John-Resig/dp/193398869X/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1422710614&amp;sr=1-1&amp;keywords=Secrets+of+the+JavaScript+Ninja&amp;pebp=1422710616815&amp;peasin=193398869X">Secrets of the JavaScript Ninja</a> Takes you on a journey towards mastering modern JavaScript development in three phases: design, construction, and maintenance</li>
+</ul>
+<h1 id="dev-tools-collaboration">Dev tools &amp; collaboration</h1>
+<ul>
+<li><a href="https://github.com/creationix/nvm">nvm</a> First install this…</li>
+<li><a href="http://nodejs.org/">Node</a> Then install Node (with nvm). You’ll need this even if you’re a front-end dev.</li>
+<li><a href="https://www.npmjs.com/">npm</a> Install lots of other things with npm. <strong>The package manager for JavaScript.</strong> Comes with Node.</li>
+<li><a href="https://yarnpkg.com/">Yarn</a> “Fast, Reliable, and Secure Dependency Management”. May speed up your installs and make them more deterministic than using npm. Uses the npm registry.</li>
+<li><a href="https://atom.io/">Atom</a> Nice, hackable editor by GitHub.</li>
+<li><a href="http://ternjs.net/">Tern</a> Static analysis in JavaScript</li>
+<li><a href="https://github.com/tripit/slate">Slate</a> Generate beautiful API docs for your apps</li>
+<li><a href="https://slack.com/">Slack</a> Chat for teams, with GitHub and Google hangouts integration</li>
+<li><a href="https://gitter.im/">Gitter</a> Like Slack, but better for OSS projects and free chat.</li>
+<li><a href="https://zoom.us/">Zoom</a> Video meetings with remote control - great for interviews and remote pair programming.</li>
+<li><a href="http://prettydiff.com/">PrettyDiff</a></li>
+<li><a href="http://babeljs.io/repl/">Babel Repl</a> The Babel REPL with compiled output</li>
+<li><a href="http://esnextb.in/">ESNextBin</a> A babel powered ES6+ browser bin with npm package support.</li>
+<li><a href="https://c9.io/">Cloud9</a> Your dev environment and IDE in the cloud.</li>
+<li><a href="https://koding.com">Koding</a> Online cloud development platform with video &amp; audio collaboration.</li>
+<li><a href="https://github.com/peerigon/updtr">updtr</a> Keep your modules up to date.</li>
+<li><a href="https://greenkeeper.io/">Greenkeeper</a> Automatically opens PRs when your dependencies fall behind latest.</li>
+<li><a href="https://github.com/kkemple/greenkeeper-keeper">greenkeeper-keeper</a> Automatically merges Greenkeeper PRs when tests pass.</li>
+</ul>
+<h1 id="building">Building</h1>
+<ul>
+<li><a href="http://webpack.github.io/">Webpack</a> Bundle modules for the browser.</li>
+<li><a href="http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/">How to use NPM as a Build Tool</a></li>
+<li><a href="https://github.com/typicode/husky">Husky</a>: 🐶 Git hooks made easy</li>
+<li><a href="https://github.com/observing/pre-commit">pre-commit</a> Easily configure pre-commit hooks for your package</li>
+<li><a href="http://browserify.org/">Browserify</a> Bundle modules for the browser</li>
+<li><a href="http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/">How to use NPM as a Build Tool</a></li>
+<li><a href="http://jspm.io/">jspm.io</a>: Frictionless browser package management</li>
+<li><del><a href="http://gruntjs.com/">Grunt</a>: The JavaScript Task Runner</del></li>
+<li><del><a href="http://gulpjs.com/">Grulp</a>: Automate and enhance your workflow</del></li>
+</ul>
+<h1 id="testing-lint-quality-checkers">Testing / Lint / Quality checkers</h1>
+<ul>
+<li><a href="http://eslint.org/">ESLint</a> The pluggable linting utility for JavaScript and JSX.</li>
+<li><a href="https://github.com/johnstonbl01/eslint-no-inferred-method-name">ESLint no-inferred-methodname</a> A custom rule for a common problem. <strong>#code</strong></li>
+<li><a href="https://github.com/gotwarlost/istanbul">Istanbul</a> Code coverage reporting</li>
+<li><a href="https://github.com/bcoe/nyc">nyc</a> a code coverage tool built on istanbul that works for applications that spawn subprocesses.</li>
+<li><a href="https://github.com/substack/tape">tape</a> Dead simple unit testing <strong>#code</strong></li>
+<li><a href="https://github.com/kirbysayshi/tap-browser-color">tap-browser-color</a> Prettify tap output in the browser. Works well with Tape. <strong>#code</strong></li>
+<li><a href="https://github.com/substack/faucet">faucet</a> Prettify tap output in the console. Plays well with Tape. <strong>#code</strong></li>
+<li><a href="https://github.com/visionmedia/supertest">Supertest</a> The best way to test HTTP endpoints. <strong>#code</strong></li>
+</ul>
+<h1 id="transpilers">Transpilers</h1>
+<ul>
+<li><a href="https://github.com/babel/babel">Babel</a> Transpile ES2015 (ES6), ES7 to ES5, JSX to React</li>
+<li><a href="http://www.typescriptlang.org/">TypeScript</a> TypeScript’s structural types are worth a look</li>
+<li><a href="http://coffeescript.org/">CoffeeScript</a></li>
+<li><a href="http://kripken.github.io/emscripten-site/">Emscripten</a> Frequently used to compile C/C++ to JavaScript</li>
+<li><a href="https://github.com/google/traceur-compiler">Traceur</a> (ES.next)</li>
+<li><a href="https://github.com/addyosmani/es6-tools">ES6 tools</a> Addy Osmani’s ES6 Tools list</li>
+<li><a href="https://medium.com/javascript-scene/you-might-not-need-typescript-or-static-types-aa7cb670a77b">You Might Not Need TypeScript</a> <strong>#article</strong></li>
+</ul>
+<h1 id="javascript-environments">JavaScript environments</h1>
+<ul>
+<li><a href="http://nodejs.org/">Node.js</a> Server side JavaScript and more</li>
+<li><a href="https://iojs.org/">io.js</a> - The Node fork</li>
+</ul>
+<h1 id="libraries">Libraries</h1>
+<ul>
+<li><a href="http://stats.js.org/">stats.js.org</a> JavaScript repos ranked by popularity. <strong>#code</strong></li>
+<li><a href="http://expressjs.com/">Express</a> The most popular framework for Node. <strong>#code</strong></li>
+<li><a href="https://lodash.com/">Lodash</a> Like Underscore, but much faster, and featuring a more expressive API. Check out the Ramda-style <a href="https://github.com/lodash/lodash/tree/npm/fp">fp versions</a> you can import from <code>lodash/fp</code> <strong>#code</strong></li>
+<li><a href="https://github.com/ericelliott/cuid">cuid</a> GUIDs are broken - use cuid, instead. <strong>#code</strong></li>
+<li><a href="https://github.com/facebook/react">React</a> What do Facebook, Instagram, Netflix and PayPal have in common? React. <strong>#code</strong></li>
+<li><a href="https://github.com/Reactive-Extensions/RxJS">RxJS</a> Reactive extensions for JavaScript. <a href="https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4">What’s reactive?</a> <strong>#code</strong></li>
+<li><a href="http://momentjs.com/docs/">Moment</a> A lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates. <strong>#code</strong></li>
+<li><a href="https://qa.polyfill.io/v2/docs/">https://qa.polyfill.io/v2/docs/</a> Pollyfill browsers automatically. <strong>#code</strong></li>
+<li><a href="https://www.talater.com/upup/">UpUp</a> Make sure your site works even when your user is offline. <strong>#code</strong></li>
+<li><a href="https://github.com/cloverfield-tools/universal-react-boilerplate">The Universal React Boilerplate</a> Write apps using the same code for both the client and the server using Node, Express, and Browserify. <strong>#code</strong></li>
+<li><a href="https://github.com/OWASP/NodeGoat">NodeGoat</a> Identify security vulnerabilities in your Node apps. <strong>#code</strong></li>
+<li><a href="https://github.com/olark/lightningjs">lightning.js</a> Async fetch load 3rd party JS &amp; expose a promise API. <strong>#code</strong></li>
+<li><a href="https://github.com/substack/deep-freeze">Deep Freeze</a> Deep freeze objects. <strong>#code</strong></li>
+<li><a href="http://jquery.com/">jQuery</a> Most popular JS lib by a landslide. <strong>#code</strong></li>
+<li><a href="http://ramdajs.com/">Ramda</a> Like Lodash and Underscore, but with all functions automatically curried, and parameters arranged so that the data to be operated on is supplied last. <strong>#code</strong></li>
+<li><a href="https://github.com/tinganho/express-request-language">express-request-language</a> Best implementation I’ve seen for <code>Accept-Language</code> negatiation in Express. <strong>#code</strong></li>
+<li><a href="https://github.com/tinganho/node-accept-language">accept-language</a> If you don’t use express, accept-language is the low-level lib that powers <code>express-request-language</code> for language matching &amp; fallback. <strong>#code</strong></li>
+<li><a href="https://github.com/jquery/globalize">Globalize</a> i18n / translate your app for many languages and locations (locales). <strong>#code</strong></li>
+<li><a href="https://github.com/motdotla/dotenv">dotenv</a> Easily manage environment variables <strong>#code</strong></li>
+<li><a href="http://leafletjs.com/">Leaflet</a> Interactive map UIs made easy. <strong>#code</strong></li>
+<li><a href="https://github.com/krakenjs/lusca">Lusca</a> Secure your Express application. By the Kraken team at PayPal.</li>
+<li><a href="https://github.com/stampit-org/stampit">Stampit</a> Create objects from reusable, composable behaviors. Prototypal inheritance with stamps. <strong>#code</strong></li>
+<li><a href="http://github.com/countly/countly-server">Countly</a> Open source mobile &amp; web analytics and marketing platform. <strong>#code</strong></li>
+<li><a href="https://github.com/auth0/node-jsonwebtoken">node-jsonwebtoken</a> Easy JSON Web Token auth. <strong>#code</strong></li>
+<li><a href="http://julian.com/research/velocity/">velocity</a> &amp; <a href="http://julian.com/research/velocity/#vmd">Velocity Motion Designer (VMD)</a> UI animation library. <strong>#code</strong></li>
+<li><a href="https://github.com/mafintosh/is-my-json-valid">is-my-json-valid</a>  A fast <a href="http://json-schema.org/">json-schema</a> validator. <strong>#code</strong></li>
+<li><a href="https://github.com/voronianski/is-express-schema-valid">is-express-schema-valid</a> is-my-json-valid as Express middleware for <code>req.body</code> <code>req.query</code> and <code>req.params</code>. <strong>#code</strong></li>
+<li><a href="https://github.com/SBoudrias/Inquirer.js">inquirer.js</a> Great library for building CLI tools. <strong>#code</strong></li>
+<li><a href="https://github.com/isaacs/rimraf">rimraf</a> <code>rm -rf</code> util for nodejs. Great for npm scripts. <strong>#code</strong></li>
+<li><a href="https://www.npmjs.com/package/cross-env">cross-env</a> Use environment variables with npm scripts cross-platform. <strong>#code</strong></li>
+<li><a href="https://wemo.io/os">Wemo.io Open Source VR Tools</a> <strong>#code</strong></li>
+<li><a href="http://samsung.github.io/iotjs/">IoT.js</a> An Internet of Things JavaScript platform.</li>
+<li><a href="https://github.com/es-shims/es5-shim">es5-shim</a> Stable, production ready.</li>
+<li><a href="https://github.com/es-shims/es6-shim/">es6-shim</a> Somewhat stable, but a few things I thought were solid got shifted to ES7.</li>
+<li><a href="https://www.npmjs.com/package/es7-shim">es7-shim</a> Experimantal. Use with caution.</li>
+<li><a href="https://github.com/getify/native-promise-only">native-promise-only</a> An ECMAScript standard promise polyfill by Kyle Simpson</li>
+<li><a href="https://github.com/matthew-andrews/isomorphic-fetch">isomorphic-fetch</a> A <a href="https://fetch.spec.whatwg.org/">WHATWG fetch</a> standard polyfill</li>
+<li><a href="http://jquery.com/">jQuery</a> Yes, <a href="https://docs.google.com/document/d/1LPaPA30bLUB_publLIMF0RlhdnPx_ePXm7oW02iiT6o/edit#">I still use jQuery</a> and so do 61% of the top 100,000 websites - for good reason.</li>
+<li><a href="http://meteor.github.io/blaze/">Blaze</a> DOM-diffing isomorphic reactive templates from Meteor</li>
+<li><a href="https://github.com/Reactive-Extensions/RxJS">RxJS</a> Reactive extensions for JavaScript. <a href="https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4">What’s reactive?</a></li>
+<li><a href="http://momentjs.com/docs/">Moment</a> A lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.</li>
+<li><a href="https://github.com/jquery/globalize">Globalize</a> i18n / translate your app for many languages and locations (locales)</li>
+<li><a href="http://expressjs.com/">Express</a> The most popular framework for Node</li>
+<li><a href="https://github.com/ericelliott/stampit">Stampit</a> Stampit - create objects from reusable, composable behaviors. Prototypal inheritance with stamps.</li>
+<li><a href="https://github.com/ericelliott/credential">Credential</a> If you write Node apps with password logins, you need Credential</li>
+<li><a href="https://github.com/ericelliott/cuid">cuid</a> GUIDs are broken - use cuid, instead</li>
+<li><a href="http://julian.com/research/velocity/">velocity</a> &amp; <a href="http://julian.com/research/velocity/#vmd">Velocity Motion Designer (VMD)</a> UI animation library</li>
+<li><a href="https://github.com/kriszyp/json-schema">json-schema</a> - Great for model validations</li>
+</ul>
+<h1 id="react">React</h1>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=XxVg_s8xAms">Introducing React</a> <strong>#video</strong></li>
+<li><a href="http://facebook.github.io/react/blog/">React blog</a> Official React blog</li>
+<li><a href="https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918">JSX Looks Like an Abomination but it’s Good for You</a> My take on JSX <strong>#article</strong></li>
+<li><a href="https://github.com/ericelliott/react-pure-component-starter">React Pure Component Starter</a> Learn React pure components <strong>#code</strong></li>
+<li><a href="https://medium.com/javascript-scene/baby-s-first-reaction-2103348eccdd">Baby’s First Reaction</a> Build your first working React component <strong>#article</strong></li>
+<li><a href="https://www.youtube.com/watch?v=I7IdS-PbEgI&amp;list=PLb0IAmt7-GS1cbw4qonlQztYV1TAW0sCr">Immutable Data and React</a> by <a href="https://twitter.com/leeb">Lee Byron</a> <strong>#video</strong></li>
+<li><a href="https://github.com/stampit-org/react-stamp">react-stamp</a> Composable, classless React components made easy <strong>#code</strong></li>
+<li><a href="https://github.com/paypal/react-engine">react-engine</a> PayPal’s isomorphic React view engine for Express or Kraken <strong>#code</strong></li>
+<li><a href="https://github.com/yannickcr/eslint-plugin-react">eslint-plugin-react</a> <strong>#code</strong></li>
+<li><a href="https://github.com/rackt/redux">Redux</a> Predictable state container (store) for JavaScript apps <strong>#code</strong></li>
+<li><a href="https://github.com/gaearon/redux-devtools">Redux Devtools</a> DevTools for Redux with hot reloading, timetravel debugging, and customizable UI</li>
+<li><a href="https://github.com/yelouafi/redux-saga">redux-saga</a> A synchronous-style side-effect library for Redux. <strong>#code</strong></li>
+<li><a href="https://github.com/mobxjs/mobx">MobX</a> Simple, scalable state management with TFRP. <strong>#code</strong></li>
+<li><a href="https://github.com/facebook/react-native">react-native</a> React for mobile devices <strong>#code</strong></li>
+<li><a href="http://elemental-ui.com/">Elemental-UI</a> Modular UI component library for React. <strong>#code</strong></li>
+<li><a href="https://github.com/twitter-fabric/velocity-react">velocity-react</a> The excellent Velocity UI animation library for React. <strong>#code</strong></li>
+<li><a href="https://github.com/reactjs/react-art">react-art</a> React for SVG or canvas <strong>#code</strong></li>
+<li><a href="https://github.com/Flipboard/react-canvas">react-canvas</a> React for canvas <strong>#code</strong></li>
+<li><a href="https://github.com/Izzimach/react-three">react-three</a> Three.js rendering for React <strong>#code</strong></li>
+<li><a href="https://react.rocks/">react.rocks</a> Pinterest-style directory of online demos with available code</li>
+<li><a href="http://todomvc.com/examples/react/">TodoMVC in React</a> <strong>#example</strong></li>
+<li><a href="http://facebook.github.io/jsx/">JSX Specification</a> <strong>#documentation</strong></li>
+</ul>
+<h1 id="web-components">Web Components</h1>
+<ul>
+<li><a href="https://addyosmani.com/first/">FIRST</a></li>
+<li><a href="http://webcomponents.org/polyfills/">Polyfills</a></li>
+<li><a href="http://webcomponents.org/articles/introduction-to-html-imports/">HTML Imports</a></li>
+<li><a href="http://webcomponents.org/articles/introduction-to-custom-elements/">Custom Elements</a></li>
+<li><a href="http://webcomponents.org/articles/introduction-to-template-element/">Templates</a></li>
+<li><a href="http://webcomponents.org/articles/introduction-to-shadow-dom/">Shadow DOM</a></li>
+<li><a href="http://geelen.github.io/x-gif/#/http://i.imgur.com/iKXH4E2.gif">x-gif</a> This web component wins the internet.</li>
+<li><a href="https://github.com/Polymer/vulcanize">Vulcanize</a> Don’t let web components slow your app down. Bundle your HTML imports.</li>
+</ul>
+<h1 id="graphql">GraphQL</h1>
+<ul>
+<li><a href="https://learngraphql.com/">Let’s Learn GraphQL</a> <strong>#course</strong></li>
+<li><a href="https://www.youtube.com/watch?v=etax3aEe2dA">GraphQL at Facebook</a> <strong>#talk</strong></li>
+<li><a href="https://blog.risingstack.com/graphql-overview-getting-started-with-graphql-and-nodejs/">Getting started with GraphQL and Node.js</a> <strong>#article</strong></li>
+<li><a href="https://github.com/facebook/graphql">GraphQL Specification</a></li>
+<li><a href="https://github.com/graphql/graphql-js">GraphQL Reference Implementation</a> <strong>#code</strong></li>
+<li><a href="https://github.com/RisingStack/graphql-server">graphql-server</a> A GraphQL server implementation with Mongo / Mongoose <strong>#code</strong></li>
+</ul>
+<h1 id="progressive-web-apps-pwas-">Progressive Web Apps (PWAs)</h1>
+<ul>
+<li><a href="https://medium.com/javascript-scene/native-apps-are-doomed-ac397148a2c0">Native Apps are Doomed</a> Intro to PWAs <strong>#article</strong></li>
+<li><a href="https://medium.com/javascript-scene/why-native-apps-really-are-doomed-native-apps-are-doomed-pt-2-e035b43170e9">Why Native Apps Really Are Doomed</a> Why we need PWAs - packed with stats you need to know if you’re building an app. <strong>#article</strong></li>
+</ul>
+<h1 id="qa-deployment-monitoring-ci">QA / Deployment / Monitoring / CI</h1>
+<ul>
+<li><a href="https://github.com/Unitech/pm2">PM2</a> Process monitoring / self repair</li>
+<li><a href="https://www.pingdom.com">Pingdom</a> Response monitoring and alert management (because incidents happen).</li>
+<li><a href="http://newrelic.com/">New Relic</a> Deep insights into the performance and health of your production apps</li>
+<li><a href="https://saucelabs.com/">Sauce Labs</a> Cross platform web application testing with great collaboration and integration support</li>
+<li><a href="https://travis-ci.org/">Travis CI</a> CI, of course</li>
+<li><a href="https://circleci.com/">CircleCI</a>: Continuous Integration and Delivery</li>
+<li><a href="https://codeship.com/">Codeship</a>: Continuous Delivery with Codeship: Fast, secure and fully customizable.</li>
+<li><a href="https://www.docker.com/">Docker</a> Run your CI process using the same OS configs as your production systems.</li>
+<li><a href="https://app.shippable.com/">Shippable</a> Docker-based hosted build / CI</li>
+<li><a href="http://avoidwork.github.io/tenso/">Tensō</a> A thin API facade in Node</li>
+<li><a href="https://getkong.org/">Kong</a> API/microservice extension and management layer, centralize auth, cache, logging, rate limiting, etc… plugins in Lua );</li>
+</ul>
+<h1 id="community">Community</h1>
+<ul>
+<li><a href="https://gitter.im/learn-javascript-courses/javascript-questions">JavaScript Questions Chat</a></li>
+<li><a href="https://esdiscuss.org/">ES Discuss</a> The mailing list where all the ECMAScript standard discussion action is.</li>
+<li><a href="https://plus.google.com/communities/100875929141897651837">JavaScript on Google+</a></li>
+<li><a href="https://plus.google.com/communities/103299867207875326585">HTML5 on Google+</a></li>
+<li><a href="https://plus.google.com/communities/115365528781941125390">Node.js on Google+</a></li>
+<li>IRC ##JavaScript irc://irc.freenode.net/javascript</li>
+<li>IRC #node.js irc://irc.freenode.net/node.js</li>
+<li>IRC #io.js irc://irc.freenode.net/io.js The Node fork</li>
+<li>IRC #learnjavascript irc://irc.freenode.net/learnjavascript</li>
+</ul>
+<h1 id="news">News</h1>
+<ul>
+<li><a href="https://medium.com/javascript-scene">JavaScript Scene</a></li>
+<li><a href="http://javascriptweekly.com/">JavaScript Weekly</a></li>
+<li><a href="http://nodeweekly.com/">Node Weekly</a></li>
+<li><a href="http://html5weekly.com/">HTML5 Weekly</a></li>
+<li><a href="http://esnextnews.com/">ESNext News</a></li>
+<li><a href="http://www.echojs.com/">EchoJS</a></li>
+<li><a href="https://jslive.com/">JavaScript Live</a></li>
+<li><a href="https://www.javascript.com/news">JavaScript.com News</a></li>
+<li><a href="https://nmotw.in">Node Module Of The Week</a></li>
+<li><a href="http://javascriptkicks.com">JavascriptKicks</a></li>
+<li><a href="https://fivejs.codeschool.com/">5 Minutes of Javascript</a></li>
+</ul>
+<h1 id="pasting-sharing-code">Pasting / sharing code</h1>
+<ul>
+<li><a href="http://codepen.io/pen/">Codepen</a></li>
+<li><a href="http://requirebin.com/">RequireBin</a></li>
+<li><a href="http://www.es6fiddle.net/">ES6 Fiddle</a></li>
+<li><a href="https://codepicnic.com/">CodePicNic</a> Embed interactive full-stack snippets &amp; demos</li>
+<li><a href="http://jsbin.com/?html,css,js,output">JSBin</a> Embed editable code snippets.</li>
+<li><a href="https://jsfiddle.net/">jsFiddle</a></li>
+<li><a href="https://hyperdev.com/">hyperdev</a></li>
+<li><a href="https://plnkr.co/">Plunker</a></li>
+<li><a href="https://c9.io/">Cloud9</a>: Your development environment in cloud.</li>
+<li><a href="http://www.regexr.com/">RegExr</a>: Learn, build, &amp; test Regular Expressions.</li>
+</ul>
+<h1 id="contests">Contests</h1>
+<ul>
+<li><a href="http://demojs.org/">DemoJS</a> The JavaScript demoscene party</li>
+<li><a href="http://js1k.com/">JS1k</a> JavaScript demos in 1k of memory</li>
+<li><a href="http://js13kgames.com/">JS13k Games</a> JavaScript games in 13k of memory</li>
+<li><a href="http://fightcodegame.com/">FightCode game</a> program virtual battle bots and climb the leaderboard</li>
+<li><a href="http://www.nodeknockout.com/">Node Knockout</a> The legendary Node competition</li>
+</ul>
+<h1 id="hackable-hardware">Hackable Hardware</h1>
+<ul>
+<li><a href="http://nodebots.io/">Nodebots</a></li>
+<li><a href="http://cylonjs.com/">Cylon</a></li>
+<li><a href="http://www.nodecopter.com/">Nodecopter</a></li>
+<li><a href="https://tessel.io/">Tessel</a></li>
+<li><a href="http://www.espruino.com/">Espruino</a></li>
+<li><a href="https://onion.io/omega">Onion Omega</a></li>
+</ul>
+<h1 id="hosting">Hosting</h1>
+<ul>
+<li><a href="https://www.digitalocean.com/?refcode=fdcfedac5208">DigitalOcean</a></li>
+<li><a href="https://www.heroku.com">Heroku</a></li>
+</ul>
+<h1 id="for-kids-and-people-who-just-love-to-have-fun-">For kids (and people who just love to have fun)</h1>
+<ul>
+<li><a href="http://www.amazon.com/gp/product/B00QL616QE?ie=UTF8&amp;camp=213733&amp;creative=393177&amp;creativeASIN=B00QL616QE&amp;linkCode=shr&amp;tag=ericleads-20&amp;linkId=6AOODC27L6URY3K2">JavaScript for Kids</a></li>
+<li><a href="https://screeps.com/">Screeps</a> A strategy game you control by writing JavaScript</li>
+<li><a href="https://www.codingame.com">CodingGame</a> Programming puzzle games</li>
+<li><a href="http://fightcodegame.com/">Fightcode</a> Program robots to do battle</li>
+<li><a href="http://www.learntomod.com/">LearnToMod</a> Mod Minecraft with JavaScript</li>
+<li><a href="https://github.com/walterhiggins/ScriptCraft/blob/master/docs/YoungPersonsGuideToProgrammingMinecraft.md#the-young-persons-guide-to-programming-in-minecraft">The Young Person’s Guide to Programming in Minecraft</a></li>
+<li><a href="https://codecombat.com/">CodeCombat</a> RPG adventure controlled by JavaScript</li>
+</ul>
+<h1 id="twitter-alphabetical-order-">Twitter (alphabetical order)</h1>
+<ul>
+<li><a href="https://twitter.com/addyosmani">Addy Osmani</a> - App architecture expert, Chrome dev tools champion</li>
+<li><a href="https://twitter.com/angustweets">Angus Croll</a> - Author, “If Hemingway Wrote JavaScript”</li>
+<li><a href="https://twitter.com/rauschma">Axel Rauschmayer</a> - ES Next evangelist, author</li>
+<li><a href="https://twitter.com/BrendanEich">Brendan Eich</a> - Created JavaScript</li>
+<li><a href="https://twitter.com/swannodette">David Nolen</a> - Great functional programming content</li>
+<li><a href="https://twitter.com/littlecalculist">David Herman</a> - Author, “Effective JavaScript”</li>
+<li><a href="https://twitter.com/echojs">EchoJS</a> - News and links</li>
+<li><a href="https://twitter.com/_ericelliott">Eric Elliott</a> - That’s me. O’Reilly author. JavaScript architect. JS Instructor.</li>
+<li><a href="https://twitter.com/jhusain">Jafar Husain</a> - Great talks on RxJS, ES next, etc…</li>
+<li><a href="https://twitter.com/substack">James Halliday</a> aka Substack - author of ~one million~ Node modules you probably use.</li>
+<li><a href="https://twitter.com/jlongster">James Long</a> - CSP, functional programming advocate, Mozilla developer</li>
+<li><a href="https://twitter.com/JS_Cheerleader">JavaScript Cheerleader</a> - Mover &amp; shaker, JavaScript evangelist, documentary film maker</li>
+<li><a href="https://twitter.com/JavaScriptDaily">JavaScript Daily</a> - News and links</li>
+<li><a href="https://twitter.com/ljharb">Jordan Harband</a> - Keeping us ahead of the JS curve</li>
+<li><a href="https://twitter.com/getify">Kyle Simpson</a> - Author, YDKJS - O’Reilly, JS Instructor, open web evangelist</li>
+<li><a href="https://twitter.com/marijnjh">Marijn Haverbeke</a> - Author, “Eloquent JavaScript”</li>
+<li><a href="https://twitter.com/slicknet">Nicholas C. Zakas</a> - Author, speaker</li>
+<li><a href="https://twitter.com/skilldrick">Nick Morgan</a> - Author, “JavaScript for Kids”</li>
+<li><a href="https://twitter.com/paul_irish">Paul Irish</a> - Developer evangelist, Chrome dev tools champion</li>
+<li><a href="https://twitter.com/raganwald">Reginald Braithwaite</a> - Author, “JavaScript Allongé”, speaker, GitHub</li>
+<li><a href="https://twitter.com/ydkjs">YDKJS</a> - You Don’t Know JS, O’Reilly book series by Kyle Simpson</li>
+</ul>
+
+    <footer style="margin-top: 3rem">
+      <p>
+        &copy; Copyright 2017, <a href="" target="_blank" rel="noopener" class="black-link">Khalil Zhang</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>

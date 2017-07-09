@@ -4,8 +4,6 @@ Originally forked from [Essential JavaScript Links](https://gist.github.com/eric
 
 This is a very exclusive collection of only must-have JavaScript links. I'm only listing my favorite links. Nothing else makes the cut. Feel free to suggest links if you think they're good enough to make this list. The really curious should feel free to browse the comments to find other links. I can't guarantee the quality of links in the comments.
 
-If you want to view the well organized version, please head to [this post](http://starandtina.github.io/frontend/javascript/2015/01/28/essential-javascript-links/).
-
 ----
 
 # Required Reading
