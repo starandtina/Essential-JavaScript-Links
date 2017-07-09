@@ -1,9 +1,11 @@
 {
   "scripts": {
-    "build": "node ./scripts/covertReadmeToHTML.js"
+    "build": "node ./scripts/covertReadmeToHTML.js",
+    "precommit": "npm run build"
   },
-  "dependencies": {
+  "devDependencies": {
     "consolidate": "0.14.5",
+    "husky": "0.14.3",
     "lodash": "4.17.2",
     "marked": "0.3.6",
     "pygmentize-bundled": "2.3.0"
