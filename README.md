@@ -1,3 +1,7 @@
+# Deprecation Warning
+
+I had moved it into [another repo](https://github.com/starandtina/The-Terrible-Front-End-List/blob/master/links.md) and compiled my favirate reads, artciles together. :)
+
 # Essential JavaScript Links
 
 Originally forked from [Essential JavaScript Links](https://gist.github.com/ericelliott/d576f72441fc1b27dace) but modified according to personal favor.
